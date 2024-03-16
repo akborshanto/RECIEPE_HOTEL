@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from './component/navbar/Navbar'
+
+import Shared from './component/shared-title/Shared'
 
 const App = () => {
   return (
-    <div>
-      hello
-      <h1 className=' bg-green-300'>sdfasd</h1>
+    <div className=' container mx-auto'>
+<Navbar></Navbar>
+
+<Shared></Shared>
+
+
     </div>
   )
 }
