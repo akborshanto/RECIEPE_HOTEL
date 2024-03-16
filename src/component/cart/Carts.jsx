@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carts = ({carts}) => {
+const Carts = ({carts,handleCarts}) => {
 const{recipe_image,recipe_name,short_description,ingredients,
     preparing_time,calories}=carts;
 
@@ -32,7 +32,9 @@ const{recipe_image,recipe_name,short_description,ingredients,
 
 
       <div className="card-actions justify-start">
-        <button className="btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-40 h-10 mt-4 hover:bg-white text-xl">Buy Now</button>
+        <button
+         onClick={()=>handleCarts(carts)}
+        className="btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-40 h-10 mt-4 hover:bg-white text-xl">Buy Now</button>
       </div>
     </div>
   </div>

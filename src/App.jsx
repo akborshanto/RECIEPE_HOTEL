@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './component/navbar/Navbar'
 
 import Shared from './component/shared-title/Shared'
@@ -7,6 +7,24 @@ import Cart from './component/cart/Cart'
 import CartCount from './component/cart/CartCount'
 
 const App = () => {
+/* cart count */
+const [count,setCount]=useState(0)
+/* carts */
+
+const[item,setItem]=useState([])
+  /* handle count */
+const handleCart=(carts)=>{
+
+
+// console.log(carts)
+setItem([...item,carts])
+/* count */
+  setCount( count + 1)
+
+
+  }
+
+console.log(item)
   return (
     <div className=' container mx-auto'>
 <Navbar></Navbar>
@@ -16,10 +34,12 @@ const App = () => {
 
 <div className=" flex justify-between mt-10 ">
 
-<Cart></Cart>
+<Cart handleCarts={handleCart}></Cart>
 
 
-<CartCount></CartCount>
+
+
+<CartCount count={count} item={item}></CartCount>
 </div>
 
 
