@@ -1,0 +1,101 @@
+[
+    {
+      "recipe_image": "https://example.com/chicken_teriyaki.jpg",
+      "recipe_id": "001",
+      "recipe_name": "Chicken Teriyaki",
+      "short_description": "A delicious Japanese dish featuring tender chicken in a sweet and savory sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaves",
+        "400 g mushroom"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://example.com/spaghetti_bolognese.jpg",
+      "recipe_id": "002",
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic Italian pasta dish with rich tomato sauce and savory ground beef.",
+      "ingredients": [
+        "400 g spaghetti",
+        "250 g ground beef",
+        "500 ml tomato sauce",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "50 g grated Parmesan cheese"
+      ],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://example.com/caesar_salad.jpg",
+      "recipe_id": "003",
+      "recipe_name": "Caesar Salad",
+      "short_description": "A refreshing salad with crisp romaine lettuce, crunchy croutons, and tangy Caesar dressing.",
+      "ingredients": [
+        "1 head romaine lettuce",
+        "100 g croutons",
+        "50 g grated Parmesan cheese",
+        "2 tbsp Caesar dressing"
+      ],
+      "preparing_time": "15 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://example.com/vegetable_stir_fry.jpg",
+      "recipe_id": "004",
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "Healthy and colorful stir-fried vegetables in a flavorful sauce.",
+      "ingredients": [
+        "200 g broccoli florets",
+        "150 g carrots, sliced",
+        "100 g bell peppers, sliced",
+        "100 g snow peas",
+        "3 tbsp soy sauce",
+        "2 cloves garlic, minced",
+        "1 tbsp ginger, minced"
+      ],
+      "preparing_time": "20 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://example.com/chocolate_cake.jpg",
+      "recipe_id": "005",
+      "recipe_name": "Chocolate Cake",
+      "short_description": "Decadent and moist chocolate cake perfect for any occasion.",
+      "ingredients": [
+        "200 g all-purpose flour",
+        "100 g unsweetened cocoa powder",
+        "250 g sugar",
+        "2 eggs",
+        "150 ml milk",
+        "150 g butter, melted",
+        "1 tsp vanilla extract",
+        "1 tsp baking powder",
+        "1/2 tsp salt"
+      ],
+      "preparing_time": "50 min",
+      "calories": "380 calories"
+    },
+    {
+      "recipe_image": "https://example.com/fried_rice.jpg",
+      "recipe_id": "006",
+      "recipe_name": "Vegetable Fried Rice",
+      "short_description": "A tasty and satisfying fried rice dish packed with veggies and flavor.",
+      "ingredients": [
+        "300 g cooked rice",
+        "100 g peas",
+        "100 g carrots, diced",
+        "100 g corn kernels",
+        "2 eggs, beaten",
+        "3 tbsp soy sauce",
+        "2 cloves garlic, minced",
+        "2 tbsp vegetable oil"
+      ],
+      "preparing_time": "25 min",
+      "calories": "290 calories"
+    }
+  ]
+  
