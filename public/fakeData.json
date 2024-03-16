@@ -1,98 +1,84 @@
 [
     {
-      "recipe_image": "https://example.com/chicken_teriyaki.jpg",
+      "recipe_image": "https://plus.unsplash.com/premium_photo-1698867575634-d39ef95fa6a7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "recipe_id": "001",
       "recipe_name": "Chicken Teriyaki",
       "short_description": "A delicious Japanese dish featuring tender chicken in a sweet and savory sauce.",
       "ingredients": [
         "550 g chicken",
         "120 ml soy sauce",
-        "200 g basil leaves",
-        "400 g mushroom"
+        "200 g basil leaves"
+
       ],
       "preparing_time": "30 min",
       "calories": "320 calories"
     },
     {
-      "recipe_image": "https://example.com/spaghetti_bolognese.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/1005860604/photo/eating-homemade-spaghetti-bolognese.webp?b=1&s=170667a&w=0&k=20&c=G6V4Z7NKv_3fD3LrmgwEzs1PIASsaYLGREqAoYzf3XI=",
       "recipe_id": "002",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with rich tomato sauce and savory ground beef.",
       "ingredients": [
         "400 g spaghetti",
         "250 g ground beef",
-        "500 ml tomato sauce",
-        "1 onion, diced",
-        "2 cloves garlic, minced",
-        "50 g grated Parmesan cheese"
+        "500 ml tomato sauce"
+    
       ],
       "preparing_time": "45 min",
       "calories": "450 calories"
     },
     {
-      "recipe_image": "https://example.com/caesar_salad.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/942176766/photo/grilled-paneer-tikka-cheese-kebab.webp?b=1&s=170667a&w=0&k=20&c=hQNaOLwq2kkMH9yq5PpFi74PYTiKT9HbIRI3SvqQc_g=",
       "recipe_id": "003",
       "recipe_name": "Caesar Salad",
       "short_description": "A refreshing salad with crisp romaine lettuce, crunchy croutons, and tangy Caesar dressing.",
       "ingredients": [
         "1 head romaine lettuce",
         "100 g croutons",
-        "50 g grated Parmesan cheese",
-        "2 tbsp Caesar dressing"
+        "50 g grated Parmesan cheese"
+   
       ],
       "preparing_time": "15 min",
       "calories": "250 calories"
     },
     {
-      "recipe_image": "https://example.com/vegetable_stir_fry.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/1130228935/photo/indian-dal-food-traditional-indian-soup-lentils-indian-dhal-spicy-curry-in-bowl-spices-herbs.webp?b=1&s=170667a&w=0&k=20&c=oSLYFq688my1fJke3dTYlK1xWrFZBTccYWvQdY63kDA=",
       "recipe_id": "004",
       "recipe_name": "Vegetable Stir-Fry",
       "short_description": "Healthy and colorful stir-fried vegetables in a flavorful sauce.",
       "ingredients": [
         "200 g broccoli florets",
         "150 g carrots, sliced",
-        "100 g bell peppers, sliced",
-        "100 g snow peas",
-        "3 tbsp soy sauce",
-        "2 cloves garlic, minced",
-        "1 tbsp ginger, minced"
+        "100 g bell peppers, sliced"
+ 
       ],
       "preparing_time": "20 min",
       "calories": "180 calories"
     },
     {
-      "recipe_image": "https://example.com/chocolate_cake.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/1375039697/photo/healthy-fruits-and-vegetables-salad-recipe.webp?b=1&s=170667a&w=0&k=20&c=YzWsM-BQitBf9og-RKD9AEVtnzQ79yVeso6gzSNaXF4=",
       "recipe_id": "005",
       "recipe_name": "Chocolate Cake",
       "short_description": "Decadent and moist chocolate cake perfect for any occasion.",
       "ingredients": [
         "200 g all-purpose flour",
         "100 g unsweetened cocoa powder",
-        "250 g sugar",
-        "2 eggs",
-        "150 ml milk",
-        "150 g butter, melted",
-        "1 tsp vanilla extract",
-        "1 tsp baking powder",
-        "1/2 tsp salt"
+        "250 g sugar"
+ 
       ],
       "preparing_time": "50 min",
       "calories": "380 calories"
     },
     {
-      "recipe_image": "https://example.com/fried_rice.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/484811804/photo/crispy-chillie-sprinkled-chicken-wings-on-a-plate.webp?b=1&s=170667a&w=0&k=20&c=rt3Jc__iNte0ZofLpWNueRpU-JwD4cQt07Vs4SSOZAU=",
       "recipe_id": "006",
       "recipe_name": "Vegetable Fried Rice",
       "short_description": "A tasty and satisfying fried rice dish packed with veggies and flavor.",
       "ingredients": [
         "300 g cooked rice",
         "100 g peas",
-        "100 g carrots, diced",
-        "100 g corn kernels",
-        "2 eggs, beaten",
-        "3 tbsp soy sauce",
-        "2 cloves garlic, minced",
-        "2 tbsp vegetable oil"
+        "100 g carrots, diced"
+
       ],
       "preparing_time": "25 min",
       "calories": "290 calories"
