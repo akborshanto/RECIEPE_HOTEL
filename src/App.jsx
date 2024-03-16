@@ -12,7 +12,6 @@ const App = () => {
 /* cart count */
 const [count,setCount]=useState(0)
 /* carts */
-/* toasy fy */
 const notify = () => toast("Wow so easy!");
 
 const[item,setItem]=useState([])
@@ -27,22 +26,29 @@ setItem([...item,carts])
 /* count */
 setCount( count + 1)
 }else{
-  alert('sadfj')
+/* toasy fy */
+toast('nadia kater')
 }
 
   }
   const [remove,setRemove]=useState([])
+/* current item */
+const [carr,setCarr]=useState([])
 /* prepering button */
 const handlePreparing=(r)=>{
 const removeArr=item.filter(item => item.recipe_id !== r)
 setItem(removeArr)
 setCount(count - 1)
+setRemove(removeArr)
+// setRemove(count  + 1)
 }
-console.log(remove)
+// console.log(item)
   return (
     <div className=' container mx-auto'>
 <Navbar></Navbar>
+
 <Banner></Banner>
+<ToastContainer />
 <Shared></Shared>
 {/* carat-section */}
 
@@ -53,7 +59,7 @@ console.log(remove)
 
 
 
-<CartCount count={count} item={item}  handlePreparing={handlePreparing} >{<ToastContainer />}</CartCount>
+<CartCount count={count} item={item}  handlePreparing={handlePreparing} remove={remove}></CartCount>
 </div>
 
 
