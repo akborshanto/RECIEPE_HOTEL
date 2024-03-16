@@ -1,0 +1,9 @@
+  {/* row 1 */}
+  <tr className="bg-white border-none">
+    <th> {item.recipe_id}</th>
+    <td className='ml-4'>{item.recipe_name.slice(0,10)}</td>
+    <td className='ml-4'>{item.preparing_time}</td>
+    <td className='ml-4'>{item.calories.slice(0,4)}</td>
+    <th>      <button className="btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Buy Now</button>
+    </th>
+  </tr>

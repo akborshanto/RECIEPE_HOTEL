@@ -1,7 +1,7 @@
 [
     {
       "recipe_image": "https://plus.unsplash.com/premium_photo-1698867575634-d39ef95fa6a7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "recipe_id": "001",
+      "recipe_id": "1",
       "recipe_name": "Chicken Teriyaki",
       "short_description": "A delicious Japanese dish featuring tender chicken in a sweet and savory sauce.",
       "ingredients": [
@@ -15,7 +15,7 @@
     },
     {
       "recipe_image": "https://media.istockphoto.com/id/1005860604/photo/eating-homemade-spaghetti-bolognese.webp?b=1&s=170667a&w=0&k=20&c=G6V4Z7NKv_3fD3LrmgwEzs1PIASsaYLGREqAoYzf3XI=",
-      "recipe_id": "002",
+      "recipe_id": "2",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with rich tomato sauce and savory ground beef.",
       "ingredients": [
@@ -29,7 +29,7 @@
     },
     {
       "recipe_image": "https://media.istockphoto.com/id/942176766/photo/grilled-paneer-tikka-cheese-kebab.webp?b=1&s=170667a&w=0&k=20&c=hQNaOLwq2kkMH9yq5PpFi74PYTiKT9HbIRI3SvqQc_g=",
-      "recipe_id": "003",
+      "recipe_id": "3",
       "recipe_name": "Caesar Salad",
       "short_description": "A refreshing salad with crisp romaine lettuce, crunchy croutons, and tangy Caesar dressing.",
       "ingredients": [
@@ -43,7 +43,7 @@
     },
     {
       "recipe_image": "https://media.istockphoto.com/id/1130228935/photo/indian-dal-food-traditional-indian-soup-lentils-indian-dhal-spicy-curry-in-bowl-spices-herbs.webp?b=1&s=170667a&w=0&k=20&c=oSLYFq688my1fJke3dTYlK1xWrFZBTccYWvQdY63kDA=",
-      "recipe_id": "004",
+      "recipe_id": "4",
       "recipe_name": "Vegetable Stir-Fry",
       "short_description": "Healthy and colorful stir-fried vegetables in a flavorful sauce.",
       "ingredients": [
@@ -57,7 +57,7 @@
     },
     {
       "recipe_image": "https://media.istockphoto.com/id/1375039697/photo/healthy-fruits-and-vegetables-salad-recipe.webp?b=1&s=170667a&w=0&k=20&c=YzWsM-BQitBf9og-RKD9AEVtnzQ79yVeso6gzSNaXF4=",
-      "recipe_id": "005",
+      "recipe_id": "5",
       "recipe_name": "Chocolate Cake",
       "short_description": "Decadent and moist chocolate cake perfect for any occasion.",
       "ingredients": [
@@ -71,7 +71,7 @@
     },
     {
       "recipe_image": "https://media.istockphoto.com/id/484811804/photo/crispy-chillie-sprinkled-chicken-wings-on-a-plate.webp?b=1&s=170667a&w=0&k=20&c=rt3Jc__iNte0ZofLpWNueRpU-JwD4cQt07Vs4SSOZAU=",
-      "recipe_id": "006",
+      "recipe_id": "6",
       "recipe_name": "Vegetable Fried Rice",
       "short_description": "A tasty and satisfying fried rice dish packed with veggies and flavor.",
       "ingredients": [

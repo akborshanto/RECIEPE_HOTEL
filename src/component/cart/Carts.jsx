@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carts = ({carts,handleCarts}) => {
+const Carts = ({carts,handleCarts,notify}) => {
 const{recipe_image,recipe_name,short_description,ingredients,
     preparing_time,calories}=carts;
 
@@ -17,7 +17,7 @@ const{recipe_image,recipe_name,short_description,ingredients,
 
 <ul>
 {
-    ingredients.map(equipment=> <li key={Math.random()} className='text-[#878787] font-semibold my-4'>{equipment}</li>)
+    ingredients.map(equipment=> <li key={Math.random()} className=' text-[#878787] font-semibold my-4'>{equipment}</li>)
 
 }
 
