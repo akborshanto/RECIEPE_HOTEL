@@ -28,7 +28,7 @@ item.map((item,index)=>{
   <td>{item.recipe_name}</td>
   <td>{item.preparing_time}</td>
   <td>{item.calories}</td>
-<th className='border-b-3'> <button onClick={()=>handlePreparing(item)} className="  translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
+<th className='border-b-3'> <button onClick={()=>handlePreparing(item)} className=" :animate-ping translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
 </tr>
 
 })

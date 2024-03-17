@@ -13,7 +13,7 @@ const Banner = () => {
               <h1 className=" text-4xl  lg:text-5xl font-bold text-white mt-2 lg:mt:0">
                 Discover an exceptional cooking  <br /> class tailored for you!
               </h1>
-              <p className="py-6 font-semibold text-[18px] lg:text-2xl   text-[#fffffff33]">
+              <p className="py-6 font-semibold text-[18px] lg:text-2xl   text-white">
               Working with Caloris is unlike working with anyone else in the business. <br /> Our world-class engineers design and execute industry-leading performance and flexibility,
               </p>
          
