@@ -40,7 +40,6 @@ const removeArr=item.filter(item => item.recipe_id !== r)
 setItem(removeArr)
 setCount(count - 1)
 setRemove(removeArr)
-// setRemove(count  + 1)
 }
 // console.log(item)
   return (

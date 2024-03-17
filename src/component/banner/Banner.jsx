@@ -1,19 +1,20 @@
 import React from "react";
+import images  from  '../../../public/img/banner.jpg'
+import './banner.css'
 
 const Banner = () => {
   return (
     <div>
-      <div id="banner-section" className="bg-[url('../../../public/img/Rectangle 1 (1).png')]">
-        <div className="hero min-h-screen bg-base-200 rounded-lg mt-8">
+      <div id="banner-section" className="img">
+
+        <div className="hero min-h-screen bg-no-repeat cover rounded-lg mt-8">
           <div className="hero-content text-center">
             <div className="  ">
-              <h1 className="text-5xl font-bold">
+              <h1 className="text-5xl font-bold text-white">
                 Discover an exceptional cooking  <br /> class tailored for you!
               </h1>
-              <p className="py-6">
-                Learn and Master Basic Programming, Data Structures, Algorithm,
-                OOP, Database and solve 500+  <br />coding problems to become an
-                exceptionally well world-class Programmer.
+              <p className="py-6 font-semibold text-2xl  text-[#fffffff33]">
+              Working with Caloris is unlike working with anyone else in the business. <br /> Our world-class engineers design and execute industry-leading performance and flexibility,
               </p>
          
               <div className="text-center mt-6  ">

@@ -1,0 +1,6 @@
+.img{
+background-image: url('../../../public//img/banner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+}
