@@ -77,9 +77,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end relative">
-        <TfiSearch className=" absolute right-[40px] lg:right-[100px] text-xl lg:text-2xl font-bold " />
+        <TfiSearch className=" absolute right-[40px] lg:right-[100px] text-xl lg:text-2xl font-bold hidden lg:block" />
         <input type="text" placeholder="search here.." className="input rounded-2xl input-secondary  w-28 h-10  lg:h-14 bg-white border-[#0BE58A]  lg:w-full max-w-xs" />
-        <IoIosContact className="bg-[#0BE58A]  rounded-full text-black text-4xl lg:text-5xl ml-0 lg:ml-4" />
+        <IoIosContact className=" ml-4 bg-[#0BE58A]  rounded-full text-black text-4xl lg:text-5xl  lg:ml-4" />
         </div>
       </div>
     </div>

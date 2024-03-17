@@ -55,7 +55,7 @@ setRemove(removeArr)
 reverseOrder={false}   gutter={20} />
 {/* carat-section */}
 
-<div className=" flex justify-between mt-10 ">
+<div className=" flex justify-between flex-col p-4 lg:p-0 lg:flex-row mt-10 ">
 
 <Cart handleCarts={handleCart} notify={notify}></Cart>
 
