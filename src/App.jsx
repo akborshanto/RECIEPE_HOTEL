@@ -6,13 +6,15 @@ import Banner from './component/banner/Banner'
 import Cart from './component/cart/Cart'
 import CartCount from './component/cart/CartCount'
 /* toasy fy */
-import { ToastContainer, toast } from 'react-toastify';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 const App = () => {
 /* cart count */
 const [count,setCount]=useState(0)
 /* carts */
-const notify = () => toast("Wow so easy!");
+
+const notify = () => toast('Here is your toast.');
 
 const[item,setItem]=useState([])
   /* handle count */
@@ -27,7 +29,7 @@ setItem([...item,carts])
 setCount( count + 1)
 }else{
 /* toasy fy */
-toast('nadia kater')
+toast.error('Already Added the Product ')
 }
 
   }
@@ -47,8 +49,10 @@ setRemove(removeArr)
 <Navbar></Navbar>
 
 <Banner></Banner>
-<ToastContainer />
+
 <Shared></Shared>
+<Toaster  position=" top-right"
+reverseOrder={false}   gutter={20} />
 {/* carat-section */}
 
 <div className=" flex justify-between mt-10 ">
