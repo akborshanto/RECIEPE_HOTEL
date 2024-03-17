@@ -1,16 +1,16 @@
 import React from 'react'
 
 const CartCount = ({count,item,handlePreparing,current,removeValue}) => {
-
+//console.log(removeValue)
 
   return (
     <div className='mx-auto  lg:mx-0 mt-6 lg:mt-0 w-[300px] lg:w-[550px]'>
  
-<h2 className='text-3xl lg:text-3xl font-bold text-[#282828] text-center'>Want to Cook <span> {count}</span></h2>
+<h2 className='text-3xl lg:text-3xl font-bold text-[#282828] text-center border-b-2 pb-4'>Want to Cook <span> {count}</span></h2>
 <div className="cook-table ">
 <table className=" grid lg:table mt-4  " >
-  <thead className=' ml-6 lg:ml-0'>
-    <tr className='font-bold text-[#878787] text-2xl ml-4'>
+  <thead className=' ml-6 lg:ml-0 '>
+    <tr className='font-bold text-[#878787] text-2xl ml-4 border-none'>
     <th></th>
       <th>Name</th>
       <th>Time</th>
@@ -23,12 +23,12 @@ const CartCount = ({count,item,handlePreparing,current,removeValue}) => {
 
 item.map((item,index)=>{
 
-  return <tr className="bg-white border-none font-semibold border-b-2" key={index}>
-  <th >{index+ 1   }</th>
+  return <tr className="bg-white border-none font-semibold " key={index}>
+  <th >{item.recipe_id   }</th>
   <td>{item.recipe_name}</td>
   <td>{item.preparing_time}</td>
   <td>{item.calories}</td>
-<th className='border-b-3'> <button onClick={()=>handlePreparing(item.recipe_id)} className=" translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
+<th className='border-b-3'> <button onClick={()=>handlePreparing(item)} className=" translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
 </tr>
 
 })
@@ -57,7 +57,7 @@ item.map((item,index)=>{
 <div className="cook-table ">
 <table className="grid lg:table mt-4 ">
   <thead className='ml-6 lg:ml-0'>
-    <tr className='font-bold text-[#282828B3] text-xl lg:text-2xl '>
+    <tr className='font-bold text-[#282828B3] text-xl lg:text-2xl border-none '>
     <th>   </th>
       <th>Name</th>
       <th>Time</th>
@@ -68,9 +68,9 @@ item.map((item,index)=>{
       
 {
 
-  item.map((items,index)=>{
+  removeValue.map((items,index)=>{
   
-    return <tr className="bg-white border-none font-semibold border-b-2" key={index}>
+    return <tr className="bg-white border-none font-semibold " key={index}>
     <th >{index+ 1   }</th>
     <td>{items.recipe_name}</td>
     <td>{items.preparing_time}</td>

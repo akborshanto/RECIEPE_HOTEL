@@ -27,6 +27,7 @@ if(!isExist){
 setItem([...item,carts])
 /* count */
 setCount( count + 1)
+toast.success('Succesfuuly Add your Cooking ')
 }else{
 /* toasy fy */
 toast.error('Already Added the Product ')
@@ -40,16 +41,17 @@ const [carr,setCarr]=useState([])
 const [current,setCurrent]=useState(0)
 const [removeValue,setRemoveValue]=useState([])
 const handlePreparing=(r)=>{
-const removeArr=item.filter(item => item.recipe_id !== r)
+  //console.log(r)
+const removeArr=item.filter(item => item.recipe_id !== r.recipe_id)
 
 setItem(removeArr)
 setCount(count - 1)
 //setRemove(removeArr)
 setCurrent( current + 1)
-setRemoveValue(r)
+setRemoveValue([...removeValue,r])
 
 }
-console.log(removeValue)
+
 // console.log(item)
   return (
     <div className=' container mx-auto'>
