@@ -33,16 +33,23 @@ toast.error('Already Added the Product ')
 }
 
   }
-  const [remove,setRemove]=useState([])
+
 /* current item */
 const [carr,setCarr]=useState([])
 /* prepering button */
+const [current,setCurrent]=useState(0)
+const [removeValue,setRemoveValue]=useState([])
 const handlePreparing=(r)=>{
 const removeArr=item.filter(item => item.recipe_id !== r)
+
 setItem(removeArr)
 setCount(count - 1)
-setRemove(removeArr)
+//setRemove(removeArr)
+setCurrent( current + 1)
+setRemoveValue(r)
+
 }
+console.log(removeValue)
 // console.log(item)
   return (
     <div className=' container mx-auto'>
@@ -62,7 +69,7 @@ reverseOrder={false}   gutter={20} />
 
 
 
-<CartCount count={count} item={item}  handlePreparing={handlePreparing} remove={remove}></CartCount>
+<CartCount count={count} item={item}  handlePreparing={handlePreparing} current={current} removeValue={removeValue}></CartCount>
 </div>
 
 

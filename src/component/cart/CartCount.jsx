@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CartCount = ({count,item,handlePreparing,remove}) => {
+const CartCount = ({count,item,handlePreparing,current,removeValue}) => {
 
 
   return (
@@ -19,24 +19,22 @@ const CartCount = ({count,item,handlePreparing,remove}) => {
   </thead>
 <tbody className=' ml-4 lg:ml-0'>
       
-      {
+{
 
-        item.map((item,idx)=> {
-        
-        return <>
- 
-        <tr className="bg-white border-none font-semibold border-b-2">
-        <th >{idx+ 1   }</th>
-        <td>{item.recipe_name}</td>
-        <td>{item.preparing_time}</td>
-        <td>{item.calories}</td>
-    <th className='border-b-3'> <button onClick={()=>handlePreparing(item.recipe_id)} className=" translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
-      </tr>
+item.map((item,index)=>{
 
-        </>      })
-      
-      }
+  return <tr className="bg-white border-none font-semibold border-b-2" key={index}>
+  <th >{index+ 1   }</th>
+  <td>{item.recipe_name}</td>
+  <td>{item.preparing_time}</td>
+  <td>{item.calories}</td>
+<th className='border-b-3'> <button onClick={()=>handlePreparing(item.recipe_id)} className=" translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
+</tr>
 
+})
+
+  
+}
  
     </tbody>
   </table>
@@ -52,7 +50,7 @@ const CartCount = ({count,item,handlePreparing,remove}) => {
 {/* current cooking */}
 
 <div className="bg-none mt-5 ">
-<h1 className=" text-center text-black font-semibold text-2xl my-4 border-b-2 pb-4">Current Cokking:{count}</h1>
+<h1 className=" text-center text-black font-semibold text-2xl my-4 border-b-2 pb-4">Current Cokking:{current}</h1>
 
 
 
@@ -68,23 +66,21 @@ const CartCount = ({count,item,handlePreparing,remove}) => {
   </thead>
 <tbody>
       
-      {
+{
 
-        remove.map((item,idx)=> {
-        
-        return <>
- 
-        <tr className="bg-white border-none">
-        <th >{idx+ 1   }</th>
-        <td>{item.recipe_name}</td>
-        <td>{item.preparing_time}</td>
-        <td>{item.calories}</td>
-      </tr>
-
-        </>      })
-      
-      }
-
+  item.map((items,index)=>{
+  
+    return <tr className="bg-white border-none font-semibold border-b-2" key={index}>
+    <th >{index+ 1   }</th>
+    <td>{items.recipe_name}</td>
+    <td>{items.preparing_time}</td>
+    <td>{items.calories}</td>
+  </tr>
+  
+  })
+  
+    
+  }
  
     </tbody>
   </table>

@@ -30,7 +30,7 @@ const{recipe_image,recipe_name,short_description,ingredients,
 <span className='text-[#282828CC}'> {preparing_time}</span>
 </div>
 <div className='flex gap-2 items-center'> 
-<FaFire />
+<FaFire className='' />
 <h3   className='text-[#282828CC} font-semibold'>{calories}</h3>
 
 </div>
