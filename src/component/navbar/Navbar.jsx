@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosContact } from "react-icons/io";
-import { TfiSearch } from "react-icons/tfi";
+import { FaSearch } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="btn btn-ghost  font-serif  text-[13px] lg:text-3xl font-bold sm:break-words ">
-            WRINCLE CALORIES
+         Hotel<span className="text-[#0BE58A]">CALORIES</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -58,13 +58,14 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Recipes</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-[#0BE58A] text-white">
                   <li>
-                    <a>About</a>
+                    <a>Cotact</a>
                   </li>
                   <li>
-                    <a>Search</a>
+                    <a>Blog</a>
                   </li>
+      
                 </ul>
               </details>
             </li>
@@ -77,7 +78,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end relative">
-        <TfiSearch className=" absolute right-[40px] lg:right-[100px] text-xl lg:text-2xl font-bold hidden lg:block" />
+        <FaSearch className=" absolute right-[70px]  top-3 lg:top-4 text-green-400 lg:right-[100px] text-xl lg:text-2xl font-bold lg:block" />
         <input type="text" placeholder="search here.." className="input rounded-2xl input-secondary  w-28 h-10  lg:h-14 bg-white border-[#0BE58A]  lg:w-full max-w-xs" />
         <IoIosContact className=" ml-4 bg-[#0BE58A]  rounded-full text-black text-4xl lg:text-5xl  lg:ml-4" />
         </div>

@@ -1,5 +1,7 @@
 
-
+::selection{
+    color: #0BE58A;
+}
 
 @tailwind base;
 @tailwind components;

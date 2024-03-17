@@ -28,7 +28,7 @@ item.map((item,index)=>{
   <td>{item.recipe_name}</td>
   <td>{item.preparing_time}</td>
   <td>{item.calories}</td>
-<th className='border-b-3'> <button onClick={()=>handlePreparing(item)} className=" translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
+<th className='border-b-3'> <button onClick={()=>handlePreparing(item)} className="  translate-x-8 btn bg-[#0BE58A] border-none text-black font-semibold  rounded-3xl w-20 h-10 mt-4 hover:bg-white ">Preparing</button></th>
 </tr>
 
 })
@@ -38,6 +38,12 @@ item.map((item,index)=>{
  
     </tbody>
   </table>
+
+
+
+
+
+
 </div>
 
 
@@ -50,7 +56,7 @@ item.map((item,index)=>{
 {/* current cooking */}
 
 <div className="bg-none mt-5 ">
-<h1 className=" text-center text-black font-semibold text-2xl my-4 border-b-2 pb-4">Current Cokking:{current}</h1>
+<h1 className=" text-center text-black font-bold text-3xl lg:text-3xl my-4 border-b-2 pb-4">Current Cooking:{current}</h1>
 
 
 
@@ -75,8 +81,13 @@ item.map((item,index)=>{
     <td>{items.recipe_name}</td>
     <td>{items.preparing_time}</td>
     <td>{items.calories}</td>
+      {/* coook item */}
+
+
   </tr>
   
+
+
   })
   
     
@@ -85,6 +96,9 @@ item.map((item,index)=>{
     </tbody>
   </table>
 </div>
+
+
+
 
 </div>
 
