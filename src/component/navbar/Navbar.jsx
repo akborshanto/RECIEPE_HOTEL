@@ -46,7 +46,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost  font-serif  text-[20px] lg:text-3xl font-bold sm:break-words ">
+          <a className="btn btn-ghost  font-serif  text-[16px] lg:text-3xl font-bold sm:break-words ">
          Hotel<span className="text-[#0BE58A]">CALORIES</span>
           </a>
         </div>
